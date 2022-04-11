@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Упражнение 7</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Student\Desktop\css\vklad.css">
+	<meta charset="utf-8">
+	<title>BankRU</title>
 </head>
 <body>
-    <form action="cgibin/IntVklad.php" accept-charset="utf-8" method="post"
-    
+<h1>Найти вклад на выгодных условиях</h1>
+<font color="red">Срок вклада</font><select>
+	<option>1 мес</option>
+	<option>3 мес</option>
+	<option>6 мес</option>
+	<option>9 мес</option>
+	<option>1 год</option>
+	<option>1.5 года</option>
+</select>
+<br><br><br>
+<b>Название вклада:</b>&nbsp;&nbsp;<input type="text" name="name">
+<br><br><br>
+<b>Капитализация:</b>&nbsp;&nbsp;<select>
+	<option>Да</option>
+	<option>Нет</option>
+</select>
+<br><br>
+<div class="g">
+	<b>Возможность пополнения:</b>
+	<div class="otf">
+	<br>
+	<input type="radio" name="change"> <font color="black">Да</font>
+	<br>
+	<input type="radio" name="change"> <font color="black">Нет</font>
+	</div>
+</div>
+<br>
+<div class="b">
+	<b>Досрочное расторжение вклада:</b>
+	<div class="otf">
+	<br>
+	<input type="radio" name="change"> <font color="black">Да</font>
+	<br>
+	<input type="radio" name="change"> <font color="black">Нет</font>
+	</div> 
+</div>
+</form>
+<br><br>
+	<b>Открытие on-line:</b>
+	<div class="otf">
+	<br>
+	<input type="radio" name="otk"> Да
+	<br>
+	<input type="radio" name="otk"> Нет 
+	<br><br>
+	</div>
+	<button type="submit">Найти</button>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<button type="reset">Очистить</button>
+	<br><br><p>Спасибо за внимание!</p>
 </body>
 </html>
